@@ -1,3 +1,4 @@
+import { Code2 } from "lucide-react"
 
 
 export const Logo = () => {
@@ -5,7 +6,7 @@ export const Logo = () => {
         <div
             className=""
         >
-            Om Tekade
+            <Code2 className="h-8 w-8"/>
         </div>
     )
 }
