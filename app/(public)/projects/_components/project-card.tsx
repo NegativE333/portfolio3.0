@@ -4,6 +4,7 @@ import { CalendarDays, ExternalLink, FileCode, Info } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
 import { InfoHoverCard } from "./info-hover-card"
 import Link from "next/link"
+import { Button } from "@/components/ui/button"
 
 interface ProjectCardProps{
     title: string,
@@ -82,7 +83,7 @@ export const ProjectCard = ({
             </div>
           </motion.div>
           <div 
-            className="relative sm:hidden px-4 -mt-16"
+              className="relative sm:hidden px-4 -mt-16"
           >
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="flex items-baseline">
@@ -93,12 +94,16 @@ export const ProjectCard = ({
                     <motion.div 
                         whileHover={{scale:1.2}} 
                     >
-                        <FileCode className="h-5 w-5"/>
+                        <Link href={ghref} target="_blank">
+                            <FileCode className="h-5 w-5"/>
+                        </Link>
                     </motion.div>
                     <motion.div 
                         whileHover={{scale:1.2}} 
                     >
-                        <ExternalLink className="h-5 w-5"/>
+                        <Link href={href} target="_blank">
+                            <ExternalLink className="h-5 w-5"/>
+                        </Link>
                     </motion.div>
                 </div>
               </div>
@@ -110,10 +115,10 @@ export const ProjectCard = ({
                 desc={desc}
                 technologies={technologies}
               >
-                <div className="mt-1 flex items-center gap-1 rounded-md hover:bg-gray-200 cursor-pointer w-fit p-0.5">
+                <Button variant="ghost" className="mt-1 flex items-center gap-1 rounded-md hover:bg-gray-200 cursor-pointer w-fit p-0.5">
                     <Info className="h-4 w-4"/>
                     More Info
-                </div>
+                </Button>
               </InfoHoverCard>
             </div>
           </div>

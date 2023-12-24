@@ -24,8 +24,8 @@ export const InfoHoverCard = ({
 }: HoverCardProps) => {
   return (
     <HoverCard>
-      <HoverCardTrigger>{children}</HoverCardTrigger>
-      <HoverCardContent align="center" side="top" sideOffset={6}>
+      <HoverCardTrigger asChild>{children}</HoverCardTrigger>
+      <HoverCardContent align="start" side="top" sideOffset={6}>
         <div className="flex justify-between space-x-4 text-center">
           <div className="space-y-1">
             <h4 className="text-sm font-semibold">{title}</h4>
