@@ -1,4 +1,5 @@
 import { Code2 } from "lucide-react"
+import Link from "next/link"
 
 
 export const Logo = () => {
@@ -6,7 +7,9 @@ export const Logo = () => {
         <div
             className=""
         >
-            <Code2 className="h-8 w-8"/>
+            <Link href='/'>
+                <Code2 className="h-8 w-8"/>
+            </Link>
         </div>
     )
 }

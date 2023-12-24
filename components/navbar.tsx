@@ -1,12 +1,16 @@
-import { Mail } from "lucide-react"
-import { Logo } from "./logo"
+import { Mail } from "lucide-react";
+import { Logo } from "./logo";
+import { NavItems } from "./nav-items";
 
 
 export const Navbar = () => {
+
+    
+
     return(
         <div className="flex items-center h-14 shadow-md w-full bg-white sm:px-20 px-4 fixed z-30">
             <Logo />
-            
+            <NavItems />
             <div 
                 className="ml-auto px-2 py-1 border border-black/20 rounded-md hover:bg-neutral-100 hover:border-black/40 transition hover:shadow-sm"
             >
