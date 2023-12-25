@@ -37,6 +37,7 @@ export const ProjectCard = ({
             <motion.div 
                 whileHover={{y:40}}
                 className="hidden sm:relative sm:block px-4 -mt-16"
+                style={{ zIndex : 0}}
             >
             <div className="bg-white px-5 py-4 rounded-lg shadow-lg">
               <div className="flex items-baseline">
