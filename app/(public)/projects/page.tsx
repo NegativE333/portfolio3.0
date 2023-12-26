@@ -11,17 +11,24 @@ const marcellus = Marcellus({ subsets: ["latin"], weight: ["400"] });
 
 const Projects = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 500 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.3, duration: 0.5 }}
+    <div
       className="px:2 h-full w-full flex flex-col sm:flex-row gap-8 py-2 sm:py-4 justify-center"
     >
-      <div className={cn("text-center text-3xl sm:w-[30%] flex items-center justify-center", marcellus.className)}>
+      <motion.div 
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        transition={{duration:2}}
+        className={cn("text-center text-3xl sm:w-[30%] flex items-center justify-center", marcellus.className)}
+      >
         Projects
-      </div>
+      </motion.div>
       <ScrollArea className="h-[600px] w-full px-2 sm:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-8 gap-2 sm:pt-14">
+        <motion.div 
+          initial={{opacity:0}}
+          animate={{opacity:1}}
+          transition={{duration:2}}
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-8 gap-2 sm:pt-14"
+        >
           {data.map((d) => (
               <ProjectCard 
                   key={d.title}
@@ -34,9 +41,9 @@ const Projects = () => {
                   technologies={d.technologies}
               />
           ))}
-        </div>
+        </motion.div>
       </ScrollArea>
-    </motion.div>
+    </div>
   );
 };
 

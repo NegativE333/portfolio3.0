@@ -7,7 +7,6 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
 import { Separator } from "@/components/ui/separator";
-import { CalendarDays } from "lucide-react";
 
 interface HoverCardProps {
   children: React.ReactNode;

@@ -1,13 +1,12 @@
 "use client";
 
-import { Josefin_Sans, Dosis, Signika_Negative } from 'next/font/google'
+import { Josefin_Sans, Nunito } from 'next/font/google'
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { cn } from '@/lib/utils';
 
 const josefin = Josefin_Sans({ subsets : ['latin'] });
-const dosis = Dosis({ subsets: ['latin'] });
-const signika = Signika_Negative({ subsets: ['latin'] });
+const nunito = Nunito({ subsets : ['latin']});
 
 export const Hero = () => {
 
@@ -32,7 +31,7 @@ export const Hero = () => {
                     initial={{opacity : 0}}
                     animate={{opacity: 1}}
                     transition={{duration : 0.7}}
-                    className={cn("text-2xl sm:text-3xl", josefin.className)}
+                    className={cn("text-2xl sm:text-3xl", nunito.className)}
                 >
                     Hi there,
                 </motion.div>
