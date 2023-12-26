@@ -28,7 +28,13 @@ const CV = () => {
                 transition={{duration:2}}
                 className={cn("text-center text-3xl sm:w-[30%] flex items-center justify-center", marcellus.className)}
             >
-                CV
+                &gt;cv<motion.span 
+                        initial={{opacity:0}}
+                        animate={{opacity:1}}
+                        transition={{repeat: Infinity, type: 'tween'}}    
+                    >
+                        _
+                    </motion.span>
             </motion.div>
             <div className="sm:w-[70%] h-[500px] sm:h-[600px] flex items-center justify-center sm:px-16 px-2 relative">
                 <iframe className="w-[100%] h-[100%] z-10" src="https://drive.google.com/file/d/1LegDBffikkK2izzGyIg2g01xQqiJPsA5/preview"></iframe>

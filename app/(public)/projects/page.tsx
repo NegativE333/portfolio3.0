@@ -20,7 +20,13 @@ const Projects = () => {
         transition={{duration:2}}
         className={cn("text-center text-3xl sm:w-[30%] flex items-center justify-center", marcellus.className)}
       >
-        Projects
+        &gt;projects<motion.span 
+                        initial={{opacity:0}}
+                        animate={{opacity:1}}
+                        transition={{repeat: Infinity, type: 'tween'}}    
+                    >
+                        _
+                    </motion.span>
       </motion.div>
       <ScrollArea className="h-[600px] w-full px-2 sm:px-8">
         <motion.div 

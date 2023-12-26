@@ -26,7 +26,7 @@ export const ProjectCard = ({
     createdAt
 } : ProjectCardProps) => {
     return(
-        <div className="wrapper group bg-slate-100 p-2 antialiased text-gray-900">
+        <div className="wrapper group p-2 antialiased text-gray-900">
           <Image
             src={imageUrl}
             alt="image"

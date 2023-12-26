@@ -13,7 +13,7 @@ const PublicLayout = ({
     const path = usePathname();
 
     return (  
-        <div className="h-full bg-slate-100">
+        <div className="h-full bg-slate-100/50">
             <Navbar />
             <Separator />
             <PageTransition path={path}>

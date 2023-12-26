@@ -28,7 +28,7 @@ export const EduCard = ({
                     className="object-cover rounded-s-lg  border-black group-hover:scale-105 transition group-hover:border-none"
                 />
             </div>
-            <div className={cn("ml-36 sm:ml-44 h-full flex flex-col gap-0.5 justify-center", poppins.className)}>
+            <div className={cn("ml-[42%] sm:ml-[22%] h-full flex flex-col gap-0.5 justify-center", poppins.className)}>
                 <p className="text-md sm:text-xl">
                     {name}
                 </p>

@@ -18,7 +18,13 @@ const Education = () => {
                 transition={{duration:2}}
                 className={cn("text-center text-3xl sm:w-[30%] flex items-center justify-center", marcellus.className)}
             >
-                Skills
+                &gt;skills<motion.span 
+                        initial={{opacity:0}}
+                        animate={{opacity:1}}
+                        transition={{repeat: Infinity, type: 'tween'}}    
+                    >
+                        _
+                    </motion.span>
             </motion.div>
             <ScrollArea className="h-[600px] w-full px-8 sm:px-24">
                 <motion.div 
