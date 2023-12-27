@@ -7,6 +7,10 @@ import Link from "next/link";
 
 export const navItems = [
   {
+    path: "/",
+    name: "Home",
+  },
+  {
     path: "/cv",
     name: "CV",
   },

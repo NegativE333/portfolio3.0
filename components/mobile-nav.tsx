@@ -57,9 +57,11 @@ export const MobileSidebar = () => {
                                 onClick={() => router.push(item.path)}
                                 key={i}
                                 variant="ghost"
-                                className={cn("text-lg flex flex-col bg-transparent text-muted-foreground", poppins.className, pathName === item.path && "text-black")}
+                                className={cn("text-lg flex flex-col bg-transparent text-muted-foreground", poppins.className)}
                             >
-                                {item.name}
+                                <span className={cn(pathName === item.path && "text-black")}>
+                                    {item.name}
+                                </span>
                                 <Separator className={cn(pathName === item.path && "bg-black")}/>
                             </Button>
                         ))} 
