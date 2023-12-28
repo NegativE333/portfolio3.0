@@ -4,6 +4,7 @@ import { Navbar } from "@/components/navbar";
 import { PageTransition } from "@/components/transition/PageTransition";
 import { Separator } from "@/components/ui/separator";
 import { usePathname } from "next/navigation";
+import { Toaster } from 'react-hot-toast';
 
 
 const PublicLayout = ({
@@ -21,6 +22,7 @@ const PublicLayout = ({
                     {children}
                 </main>
             </PageTransition>
+            <Toaster position="bottom-right"/>
         </div>
     );
 }

@@ -26,7 +26,7 @@ export const Hero = () => {
         <div 
             className="h-full flex items-center justify-center"
         >
-            <div className={cn("flex flex-col gap-1 sm:items-start justify-center", josefin.className)}>
+            <div className={cn("flex flex-col gap-1 sm:items-start justify-center bg-white p-4 rounded-lg shadow-xl", josefin.className)}>
                 <motion.div 
                     initial={{opacity : 0}}
                     animate={{opacity: 1}}
