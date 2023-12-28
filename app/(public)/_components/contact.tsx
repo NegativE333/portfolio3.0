@@ -23,10 +23,10 @@ export const Contact = () => {
             className="h-full flex flex-col gap-2 justify-center items-center w-[min(100%,38rem)] text-center"
         >   
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl">
-                <div className="text-2xl">
+                <div className="text-xl sm:text-2xl">
                     Contact Me
                 </div>
-                <div className="text-md text-gray-700 mt-2">
+                <div className="text-sm sm:text-md text-gray-700 mt-2">
                     Contact me directly at <a className="underline hover:text-gray-900" href="mailto:omtekade914@gmail.com">omtekade914@gmail.com</a> or through this form.
                 </div>
                 <div className="w-full">

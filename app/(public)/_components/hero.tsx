@@ -4,6 +4,8 @@ import { Josefin_Sans, Nunito } from 'next/font/google'
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { cn } from '@/lib/utils';
+import { Github, Instagram, Linkedin, Twitter } from 'lucide-react';
+import Link from 'next/link';
 
 const josefin = Josefin_Sans({ subsets : ['latin'] });
 const nunito = Nunito({ subsets : ['latin']});
@@ -24,7 +26,7 @@ export const Hero = () => {
 
     return(
         <div 
-            className="h-full flex items-center justify-center"
+            className="h-full flex flex-col gap-8 items-center justify-center"
         >
             <div className={cn("flex flex-col gap-1 sm:items-start justify-center bg-white p-4 rounded-lg shadow-xl", josefin.className)}>
                 <motion.div 
@@ -47,6 +49,34 @@ export const Hero = () => {
                     I am <span className="font-semibold">Om Tekade</span>, a dedicated computer engineer and tech enthusiast. With expertise in cutting-edge technologies like <span className="font-semibold">Next.js</span>, <span className="font-semibold">Node.js</span>, <span className="font-semibold">Prisma</span> and more, I fuse creativity with code. Outside the digital realm, you&apos;ll find me exploring nature through trekking and getting lost in the immersive realms of anime. Embracing the dynamic challenges of programming, I&apos;m on a perpetual quest for innovation and learning. Join me in traversing the ever-evolving landscape of technology.
                 </motion.div>
             </div>
+            <motion.div 
+                initial={{opacity : 0}}
+                animate={{opacity : 1}}
+                transition={{duration: 3}}
+                className='flex flex-col gap-4 items-center justify-center bg-white p-4 rounded-lg shadow-xl'
+            >
+                <p className='text-center text-xs sm:text-sm'>
+                    Follow me for updates on my work, insights into my creative process, and a glimpse into my work life. Don&apos;t be shy, come say hi!
+                </p>
+                <div 
+                    className='flex gap-6'
+                >
+                    <motion.div
+                        whileHover={{scale : 1.2}}
+                    >
+                        <Link href="https://github.com/NegativE333" target='_blank'>
+                            <Github className='h-7 w-7'/>
+                        </Link>
+                    </motion.div>
+                    <motion.div
+                        whileHover={{scale : 1.2}}
+                    >
+                        <Link href="https://www.linkedin.com/in/om-tekade-b07474231/" target='_blank'>
+                            <Linkedin className='h-7 w-7'/>
+                        </Link>
+                    </motion.div>
+                </div>
+            </motion.div>
         </div>
     )
 }

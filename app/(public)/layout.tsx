@@ -22,7 +22,7 @@ const PublicLayout = ({
                     {children}
                 </main>
             </PageTransition>
-            <Toaster position="bottom-right"/>
+            <Toaster position="bottom-center"/>
         </div>
     );
 }

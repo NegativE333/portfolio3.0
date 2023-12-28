@@ -10,11 +10,6 @@ export const Navbar = () => {
             <Logo />
             <Nav />
             <div 
-                className="ml-auto px-2 py-1 border border-black/20 rounded-md hover:bg-neutral-100 hover:border-black/40 transition hover:shadow-sm hidden sm:flex"
-            >
-                <Mail />
-            </div>
-            <div 
                 className="ml-auto flex sm:hidden"
             >
                 <MobileSidebar />
