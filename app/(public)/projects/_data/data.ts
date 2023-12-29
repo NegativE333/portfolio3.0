@@ -5,7 +5,7 @@ export const data = [
         desc: "Money Matters is a platform that facilitates the easy splitting of expenses among groups. Users can utilize this platform to keep track of their expenses efficiently.",
         technologies: ["Next.js", "Tailwind CSS", "MySQL", "Prisma"],
         createdAt : "Dec 2023",
-        href: "https://money-matters3-0.vercel.app/",
+        href: "https://money-matters3.vercel.app/",
         ghref: "https://github.com/NegativE333/moneyMatters3.0",
     },
     {
@@ -43,15 +43,6 @@ export const data = [
         createdAt : "Apr 2023",
         href: "https://moviiiweb.netlify.app/",
         ghref: "https://github.com/NegativE333/moviii",
-    },
-    {
-        title: "Otaku",
-        imageUrl: "/otaku.png",
-        desc: "Otaku is an anime streaming website built with Next JS.",
-        technologies: ["Next.js", "Tailwind CSS", "Mongo DB"],
-        createdAt : "Mar 2023",
-        href: "https://otaku-seven.vercel.app/",
-        ghref: "https://github.com/NegativE333/Otaku",
     },
     {
         title: "Otaku",
