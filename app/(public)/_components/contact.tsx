@@ -22,7 +22,7 @@ export const Contact = () => {
             transition={{duration : 2}}
             className="h-full flex flex-col gap-2 justify-center items-center w-[min(100%,38rem)] text-center"
         >   
-            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl">
+            <div className="bg-white p-4 sm:p-8 rounded-xl shadow-lg hover:shadow-xl">
                 <div className="text-xl sm:text-2xl">
                     Contact Me
                 </div>
