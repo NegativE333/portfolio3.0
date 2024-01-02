@@ -14,11 +14,11 @@ const PublicLayout = ({
     const path = usePathname();
 
     return (  
-        <div className="h-full bg-slate-100/50">
+        <div className="h-full bg-slate-200/80">
             <Navbar />
             <Separator />
             <PageTransition path={path}>
-                <main className="bg-slate-100/20 h-full mt-16">
+                <main className="bg-slate-200/80 h-full mt-16">
                     {children}
                 </main>
             </PageTransition>
