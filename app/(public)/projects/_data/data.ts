@@ -46,7 +46,7 @@ export const data = [
     },
     {
         title: "Notion Clone",
-        imageUrl: "/airbnb.png",
+        imageUrl: "/notion.png",
         desc: "Crafted a Notion clone with Next.js, Tailwind CSS, and Convex database. Replicating Notion's collaborative and flexible workspace, the project enables users to create, organize, and collaborate on documents seamlessly.",
         technologies: ["Next.js", "Tailwind CSS", "Convex"],
         createdAt : "Oct 2023",
