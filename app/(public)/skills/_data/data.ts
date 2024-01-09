@@ -30,6 +30,11 @@ export const data = [
         info: "Node.js is a runtime environment that enables the execution of JavaScript code on the server side. It allows developers to build scalable and high-performance network applications, emphasizing event-driven, non-blocking I/O. Node.js is commonly used to create server-side applications, APIs, and real-time applications, fostering efficient and responsive development."
     },
     {
+        name: 'TypeScript',
+        imageUrl: '/typescript.svg',
+        info: "TypeScript is a programming language that builds on JavaScript, adding static typing and other features to make it a more robust and scalable language. TypeScript is compiled to plain JavaScript, so it can be used anywhere that JavaScript can be used.",
+    },
+    {
         name: 'JavaScript',
         imageUrl: '/javascript.svg',
         info: "JavaScript is a versatile programming language commonly used for web development. It enables dynamic content on websites, allowing for interactive user experiences. As a client-side scripting language, JavaScript runs in web browsers, facilitating actions like form validation, dynamic content updates, and asynchronous requests. It's also utilized on the server-side with platforms like Node.js, extending its capabilities beyond the browser. JavaScript is a fundamental technology for modern web development.",
@@ -73,10 +78,5 @@ export const data = [
         name: 'Vercel',
         imageUrl: '/vercel1.svg',
         info: "Vercel is a cloud platform that specializes in enabling seamless deployment and hosting of web applications. It provides a platform-as-a-service (PaaS) solution with a focus on front-end development. Developers can deploy static sites, serverless functions, and full-stack applications with ease."
-    },
-    {
-        name: 'Netlify',
-        imageUrl: '/netlify.svg',
-        info: "Netlify is a cloud platform designed for web developers, offering a range of services for building, deploying, and managing modern web projects. It supports continuous integration and deployment (CI/CD) workflows, enabling automatic deployments from version control systems."
     },
 ]
