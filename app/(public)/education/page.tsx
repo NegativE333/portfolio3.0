@@ -36,6 +36,7 @@ const Education = () => {
                             key={i}
                             name={edu.name}
                             degree={edu.degree}
+                            grade={edu.grade}
                             year={edu.year}
                             imageUrl={edu.imageUrl}
                         />

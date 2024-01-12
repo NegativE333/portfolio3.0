@@ -9,6 +9,7 @@ interface EduCardProps{
     name: string;
     degree: string;
     year: string;
+    grade: string;
     imageUrl: string;
 }
 
@@ -16,6 +17,7 @@ export const EduCard = ({
     name,
     degree,
     year,
+    grade,
     imageUrl
 } : EduCardProps) => {
     return(
@@ -39,6 +41,9 @@ export const EduCard = ({
                 <Separator className="my-0.5"/>
                 <p className="text-xs sm:text-lg text-muted-foreground group-hover:text-black transition">
                     {year}
+                </p>
+                <p className="absolute bottom-3 text-sm sm:text-md right-3 sm:top-3">
+                    {grade}
                 </p>
             </div>
         </div>
