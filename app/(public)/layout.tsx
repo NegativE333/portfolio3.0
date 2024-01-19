@@ -14,11 +14,12 @@ const PublicLayout = ({
     const path = usePathname();
 
     return (  
-        <div className="h-full bg-slate-200/80">
+        <div className="h-full">
             <Navbar />
             <Separator />
+            <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"><div className="absolute left-0 right-0 top-32 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-orange-600 opacity-20 blur-[100px]"></div></div>
             <PageTransition path={path}>
-                <main className="bg-slate-200/80 h-full mt-16">
+                <main className="h-full mt-16">
                     {children}
                 </main>
             </PageTransition>
@@ -26,5 +27,5 @@ const PublicLayout = ({
         </div>
     );
 }
- 
+
 export default PublicLayout;

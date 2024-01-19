@@ -28,12 +28,12 @@ const Projects = () => {
                         _
                     </motion.span>
       </motion.div>
-      <ScrollArea className="h-[600px] w-full px-2 sm:px-8">
+      <ScrollArea className="h-[590px] w-full px-2 sm:px-8">
         <motion.div 
           initial={{opacity:0}}
           animate={{opacity:1}}
           transition={{duration:2}}
-          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-8 gap-2 sm:pt-14"
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-8 gap-2 sm:pt-8 sm:pb-12"
         >
           {data.map((d) => (
               <ProjectCard 
