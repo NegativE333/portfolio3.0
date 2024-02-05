@@ -37,7 +37,8 @@ const CV = () => {
                     </motion.span>
             </motion.div>
             <div className="sm:w-[70%] h-[500px] sm:h-[600px] flex items-center justify-center sm:px-16 px-2 relative">
-                <iframe className="w-[100%] h-[100%] z-10" src="https://drive.google.com/file/d/1128o3H3zdMovNTGZpBioBWicoJGv8A_1/preview"></iframe>
+                <iframe className="w-[100%] h-[100%] z-10" src="https://drive.google.com/file/d/1bg7ih6Xi2JmEuITOCZl9xCeYA9k3iGRG/preview"></iframe>
+                
                 <p className="absolute">
                     <Loader2 className="h-56 w-6 animate-spin"/>
                 </p>
