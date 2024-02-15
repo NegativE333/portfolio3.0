@@ -6,7 +6,7 @@ import { MobileSidebar } from "./mobile-nav";
 export const Navbar = () => {
 
     return(
-        <div className="flex items-center h-14 shadow-md w-full bg-white sm:px-20 px-4 fixed z-30">
+        <div className="flex items-center h-14 shadow-md w-full bg-zinc-50 sm:px-20 px-4 fixed z-30">
             <Logo />
             <Nav />
             <div 

@@ -54,6 +54,15 @@ export const data = [
         ghref: "https://github.com/NegativE333/notion-clone",
     },
     {
+        title: "Miro Clone",
+        imageUrl: "/miro.png",
+        desc: "A collaborative whiteboard application, built with Next.js and Tailwind CSS, incorporating Convex and Liveblocks for real-time collaboration. Users can sketch, annotate, and collaborate seamlessly, fostering remote teamwork and ideation sessions with ease.",
+        technologies: ["Next.js", "Tailwind CSS", "Convex", "Liveblocks"],
+        createdAt : "Jan 2024",
+        href: "https://miro-clone-tau.vercel.app/",
+        ghref: "https://github.com/NegativE333/miro-clone",
+    },
+    {
         title: "Airbnb Clone",
         imageUrl: "/airbnb.png",
         desc: "Built an Airbnb clone with Next.js and Tailwind CSS, leveraging MongoDB for data storage. This project replicates Airbnb's key features, providing users with a seamless experience for property listing, searching, and booking.",

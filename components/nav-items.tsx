@@ -56,7 +56,7 @@ export const Nav = () => {
               <span>{item.name}</span>
               {item.path === hoveredPath && (
                 <motion.div
-                  className="absolute bottom-0 left-0 h-full shadow-2xl shadow-gray-900 rounded-lg -z-10"
+                  className="absolute bottom-0 left-0 h-full shadow-2xl shadow-gray-500 rounded-lg -z-10 bg-white"
                   layoutId="navbar"
                   aria-hidden="true"
                   style={{
