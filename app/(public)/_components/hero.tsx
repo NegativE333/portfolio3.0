@@ -26,25 +26,22 @@ export const Hero = () => {
 
     return(
         <div 
-            className="h-full flex flex-col gap-8 items-center justify-center"
+            className="h-full flex flex-col gap-6 items-center justify-center"
         >
-            <div className={cn("flex flex-col gap-1 sm:items-start justify-center bg-white p-4 rounded-lg shadow-xl", josefin.className)}>
+            <div className={cn("flex flex-col gap-1 items-start bg-white/50 hover:bg-white/70 transition p-4 rounded-lg shadow-xl", josefin.className)}>
                 <motion.div 
                     initial={{opacity : 0}}
                     animate={{opacity: 1}}
                     transition={{duration : 0.7}}
-                    className={cn("text-2xl sm:text-3xl", nunito.className)}
+                    className={cn("text-xl sm:text-3xl", nunito.className)}
                 >
                     Hi there,
                 </motion.div>
-                <p className="text-xl sm:text-2xl">
-                    
-                </p>
                 <motion.div 
                     initial={{ opacity: 0 }}
                     animate={controls}
                     transition={{ duration: 0.7 }}
-                    className="text-md sm:text-lg"
+                    className="text-sm sm:text-lg text-justify"
                 >
                     I am <span className="font-semibold">Om Tekade</span>, a dedicated computer engineer and tech enthusiast. With expertise in cutting-edge technologies like <span className="font-semibold">Next.js</span>, <span className="font-semibold">Node.js</span>, <span className="font-semibold">Prisma</span> and more, I fuse creativity with code. Outside the digital realm, you&apos;ll find me exploring nature through trekking and getting lost in the immersive realms of anime. Embracing the dynamic challenges of programming, I&apos;m on a perpetual quest for innovation and learning. Join me in traversing the ever-evolving landscape of technology.
                 </motion.div>
@@ -53,7 +50,7 @@ export const Hero = () => {
                 initial={{opacity : 0}}
                 animate={{opacity : 1}}
                 transition={{duration: 3}}
-                className='flex flex-col gap-4 items-center justify-center bg-white p-4 rounded-lg shadow-xl'
+                className='flex flex-col gap-4 items-center justify-center bg-white/50 p-4 rounded-lg shadow-xl'
             >
                 <p className='text-center text-xs sm:text-sm'>
                     Follow me for updates on my work, insights into my creative process, and a glimpse into my work life. Don&apos;t be shy, come say hi!

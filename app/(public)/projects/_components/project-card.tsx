@@ -32,14 +32,14 @@ export const ProjectCard = ({
             alt="image"
             height={350}
             width={350}
-            className="bg-white group-hover:bg-black transition p-0.5 rounded-md shadow-xl"
+            className="bg-black transition p-0.5 rounded-md shadow-xl"
           />
             <motion.div 
                 whileHover={{y:40}}
                 className="hidden sm:relative sm:block px-4 -mt-16"
                 style={{ zIndex : 0}}
             >
-            <div className="bg-white px-5 py-4 rounded-lg shadow-lg">
+            <div className="bg-white/90 px-5 py-4 rounded-lg shadow-lg">
               <div className="flex items-baseline">
                 <span className="bg-teal-100 text-teal-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide py-0.5">
                   {technologies[0]}
@@ -61,7 +61,7 @@ export const ProjectCard = ({
                     </motion.div>
                 </div>
               </div>
-              <Separator className="mt-2"/>
+              <Separator className="mt-2 bg-black h-[1px]"/>
               <h4 className="mt-2 text-xl font-semibold uppercase leading-tight truncate">
                 {title}
               </h4>
@@ -86,7 +86,7 @@ export const ProjectCard = ({
           <div 
               className="relative sm:hidden px-4 -mt-16"
           >
-            <div className="bg-white p-6 rounded-lg shadow-lg">
+            <div className="bg-white/90 p-6 rounded-lg shadow-lg">
               <div className="flex items-baseline">
                 <span className="bg-teal-100 text-teal-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide py-0.5">
                   {technologies[0]}
@@ -108,19 +108,26 @@ export const ProjectCard = ({
                     </motion.div>
                 </div>
               </div>
+              <Separator className="mt-2 bg-black/30"/>
               <h4 className="mt-2 text-xl font-semibold uppercase leading-tight truncate">
                 {title}
               </h4>
-              <InfoHoverCard
-                title={title}
-                desc={desc}
-                technologies={technologies}
-              >
-                <Button variant="ghost" className="mt-1 flex items-center gap-1 rounded-md hover:bg-gray-200 cursor-pointer w-fit p-0.5">
-                    <Info className="h-4 w-4"/>
-                    More Info
-                </Button>
-              </InfoHoverCard>
+              <div className="flex items-center">
+                <InfoHoverCard
+                  title={title}
+                  desc={desc}
+                  technologies={technologies}
+                >
+                  <Button variant="ghost" className="mt-1 flex items-center gap-1 rounded-md hover:bg-gray-200 cursor-pointer w-fit p-0.5">
+                      <Info className="h-4 w-4"/>
+                      More Info
+                  </Button>
+                </InfoHoverCard>
+                <div className="ml-auto flex items-center text-sm text-muted-foreground gap-0.5">
+                      <CalendarDays className="h-3 w-3"/>
+                      {createdAt}
+                </div>
+              </div>
             </div>
           </div>
         </div>

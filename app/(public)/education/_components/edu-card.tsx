@@ -21,7 +21,7 @@ export const EduCard = ({
     imageUrl
 } : EduCardProps) => {
     return(
-        <div className="w-full h-[130px] rounded-lg relative flex bg-white shadow-lg hover:shadow-2xl transition group">
+        <div className="w-full h-[130px] rounded-lg relative flex bg-white/70 shadow-lg hover:shadow-2xl transition group">
             <div className="w-[40%] sm:w-[20%] h-full absolute">
                 <Image 
                     src={imageUrl}

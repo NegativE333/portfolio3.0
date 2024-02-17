@@ -22,11 +22,11 @@ export const Contact = () => {
             transition={{duration : 2}}
             className="h-full flex flex-col gap-2 justify-center items-center w-[min(100%,38rem)] text-center"
         >   
-            <div className="bg-white p-4 sm:p-8 rounded-xl shadow-lg hover:shadow-xl">
+            <div className="bg-white/50 p-4 sm:p-8 rounded-xl shadow-lg hover:shadow-xl">
                 <div className="text-xl sm:text-2xl">
                     Contact Me
                 </div>
-                <div className="text-sm sm:text-md text-gray-700 mt-2">
+                <div className="text-xs sm:text-md text-gray-700 mt-2">
                     Contact me directly at <a className="underline hover:text-gray-900" href="mailto:omtekade914@gmail.com">omtekade914@gmail.com</a> or through this form.
                 </div>
                 <div className="w-full">
@@ -50,11 +50,11 @@ export const Contact = () => {
                             name="senderEmail"
                             required
                             maxLength={250}
-                            className="h-14 px-4 rounded-lg border border-black/10 shadow-md"
+                            className="h-14 px-4 rounded-lg border border-black/10 shadow-md bg-white/10"
                             placeholder="Your email"
                         />
                         <textarea 
-                            className="h-52 my-3 rounded-lg border border-black/10 p-4 shadow-md"
+                            className="h-52 my-3 rounded-lg border border-black/10 p-4 shadow-md bg-white/10"
                             name="message"
                             placeholder="Your message"
                             required
