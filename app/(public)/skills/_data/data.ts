@@ -10,24 +10,24 @@ export const data = [
         info: 'React.js is a JavaScript library for building user interfaces, developed by Facebook. It allows developers to create reusable UI components and manage the state of an application efficiently. With a virtual DOM and a component-based architecture, React enables the creation of interactive and dynamic web applications, optimizing performance.',
     },
     {
-        name: 'Prisma',
-        imageUrl: '/prisma.svg',
-        info: 'Prisma is a modern database toolkit for Node.js and TypeScript. It simplifies database access by providing a type-safe and auto-generated query builder. With Prisma, developers can interact with databases using a declarative syntax, making it easier to build scalable and maintainable server-side applications with robust database integration.',
+        name: 'Docker',
+        imageUrl: '/docker.svg',
+        info: 'Proficient in containerization technology for building, deploying, and managing applications in isolated environments. Enables efficient development, scaling, and deployment processes.',
     },
     {
-        name: 'MySQL',
-        imageUrl: '/mysql.svg',
-        info: 'MySQL is an open-source relational database management system (RDBMS) that uses SQL (Structured Query Language). It is widely used for managing and organizing structured data, providing a reliable and efficient solution for storing, retrieving, and managing data in various applications, from small-scale projects to large enterprise systems.',
-    },
-    {
-        name: 'Mongo DB',
-        imageUrl: '/mongo.svg',
-        info: "MongoDB is a NoSQL database system that stores data in flexible, JSON-like documents. It provides a scalable, high-performance, and schema-free data storage solution. MongoDB is widely used in modern web development for its ability to handle large amounts of data, support for dynamic schemas, and ease of integration with various programming languages."
+        name: 'AWS',
+        imageUrl: '/aws.svg',
+        info: 'Skilled in utilizing Amazon Web Services for cloud computing, offering scalable, reliable, and secure solutions for storage, computation, and various other functionalities. Proficient in deploying and managing applications on AWS infrastructure.',
     },
     {
         name: 'Node.js',
         imageUrl: '/nodejs.svg',
         info: "Node.js is a runtime environment that enables the execution of JavaScript code on the server side. It allows developers to build scalable and high-performance network applications, emphasizing event-driven, non-blocking I/O. Node.js is commonly used to create server-side applications, APIs, and real-time applications, fostering efficient and responsive development."
+    },
+    {
+        name: 'Java',
+        imageUrl: '/java.svg',
+        info: "Java is a versatile, object-oriented programming language known for its portability and platform independence. It's widely used for developing a variety of applications, from web and mobile to enterprise systems. With its strong emphasis on readability and maintainability, Java has been a cornerstone in the software development industry for many years."
     },
     {
         name: 'TypeScript',
@@ -50,6 +50,21 @@ export const data = [
         info: 'Tailwind CSS is a utility-first CSS framework that provides a set of low-level utility classes to build designs directly in your markup. It offers a highly efficient and flexible way to style web interfaces by composing classes together, promoting a rapid and consistent development process. Tailwind simplifies styling and enables a responsive design approach.',
     },
     {
+        name: 'Prisma',
+        imageUrl: '/prisma.svg',
+        info: 'Prisma is a modern database toolkit for Node.js and TypeScript. It simplifies database access by providing a type-safe and auto-generated query builder. With Prisma, developers can interact with databases using a declarative syntax, making it easier to build scalable and maintainable server-side applications with robust database integration.',
+    },
+    {
+        name: 'MySQL',
+        imageUrl: '/mysql.svg',
+        info: 'MySQL is an open-source relational database management system (RDBMS) that uses SQL (Structured Query Language). It is widely used for managing and organizing structured data, providing a reliable and efficient solution for storing, retrieving, and managing data in various applications, from small-scale projects to large enterprise systems.',
+    },
+    {
+        name: 'Mongo DB',
+        imageUrl: '/mongo.svg',
+        info: "MongoDB is a NoSQL database system that stores data in flexible, JSON-like documents. It provides a scalable, high-performance, and schema-free data storage solution. MongoDB is widely used in modern web development for its ability to handle large amounts of data, support for dynamic schemas, and ease of integration with various programming languages."
+    },
+    {
         name: 'Framer Motion',
         imageUrl: '/framer.svg',
         info: 'Framer Motion is a popular animation library for React applications. It simplifies the creation of smooth and interactive animations, allowing developers to enhance user interfaces with motion. With Framer Motion, you can easily animate React components, manage complex transitions, and add delightful effects to create engaging and visually appealing user experiences'
@@ -63,11 +78,6 @@ export const data = [
         name: 'Hardhat',
         imageUrl: '/hardhat.svg',
         info: "Hardhat is a development environment for Ethereum that facilitates smart contract development, testing, and deployment. It offers features like built-in tasks, testing environments, and scripts for managing the complete development lifecycle of Ethereum-based decentralized applications (DApps). Developers use Hardhat to streamline the process of creating, testing, and deploying smart contracts on the Ethereum blockchain."
-    },
-    {
-        name: 'Java',
-        imageUrl: '/java.svg',
-        info: "Java is a versatile, object-oriented programming language known for its portability and platform independence. It's widely used for developing a variety of applications, from web and mobile to enterprise systems. With its strong emphasis on readability and maintainability, Java has been a cornerstone in the software development industry for many years."
     },
     {
         name: 'C',

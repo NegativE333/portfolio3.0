@@ -15,7 +15,7 @@ export const SkillCard = ({
     info
 } : SkillCardProps) => {
     return(
-        <div className="w-[130px] h-[120px] bg-white/50 shadow-lg rounded-md relative hover:shadow-2xl transition group">
+        <div className="w-[130px] h-[120px] bg-white/50 shadow-lg rounded-md relative hover:shadow-xl hover:bg-white/90 transition group">
         <div className="h-[80%] w-full absolute">
             <Image 
                 src={imageUrl}

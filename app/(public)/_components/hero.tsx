@@ -4,7 +4,8 @@ import { Josefin_Sans, Nunito } from 'next/font/google'
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { cn } from '@/lib/utils';
-import { Github, Instagram, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
+import { FaXTwitter } from "react-icons/fa6";
 import Link from 'next/link';
 
 const josefin = Josefin_Sans({ subsets : ['latin'] });
@@ -70,6 +71,15 @@ export const Hero = () => {
                     >
                         <Link href="https://www.linkedin.com/in/om-tekade-b07474231/" target='_blank'>
                             <Linkedin className='h-7 w-7'/>
+                        </Link>
+                    </motion.div>
+                    <motion.div
+                        whileHover={{scale : 1.2}}
+                    >
+                        <Link href="https://twitter.com/om_tekade" target='_blank'>
+                            <div className='h-7 w-7 text-[22px] flex items-center justify-center'>
+                                <FaXTwitter />
+                            </div>
                         </Link>
                     </motion.div>
                 </div>

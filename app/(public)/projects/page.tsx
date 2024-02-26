@@ -1,33 +1,19 @@
 "use client";
 
-import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { Marcellus } from "next/font/google";
 import { data } from "./_data/data";
 import { ProjectCard } from "./_components/project-card";
 import { ScrollArea } from "@/components/ui/scroll-area";
-
-const marcellus = Marcellus({ subsets: ["latin"], weight: ["400"] });
+import { PageTitle } from "../_components/page-title";
 
 const Projects = () => {
   return (
     <div
       className="px:2 h-full w-full flex flex-col sm:flex-row gap-8 py-2 sm:py-4 justify-center"
     >
-      <motion.div 
-        initial={{opacity:0}}
-        animate={{opacity:1}}
-        transition={{duration:2}}
-        className={cn("text-center text-3xl sm:w-[30%] flex items-center justify-center", marcellus.className)}
-      >
-        &gt;projects<motion.span 
-                        initial={{opacity:0}}
-                        animate={{opacity:1}}
-                        transition={{repeat: Infinity, type: 'tween'}}    
-                    >
-                        _
-                    </motion.span>
-      </motion.div>
+
+      <PageTitle title="projects"/>
+      
       <ScrollArea className="h-[590px] w-full px-2 sm:px-8">
         <motion.div 
           initial={{opacity:0}}
