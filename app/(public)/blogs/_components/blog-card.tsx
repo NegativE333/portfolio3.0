@@ -18,11 +18,11 @@ export const BlogCard = ({
 }: BlogCardProps) => {
     return (
         <div className="px-2">
-            <article className="mx-auto flex max-w-md flex-col rounded-2xl bg-gray-500/40 px-4 py-4 shadow md:max-w-4xl md:flex-row md:items-center">
+            <article className="mx-auto flex max-w-md flex-col rounded-2xl bg-gray-500/30 px-4 py-4 shadow md:max-w-4xl md:flex-row md:items-center">
                 <div className="shrink-0 my-1 md:mr-8 md:max-w-sm">
                     <Image
                         unoptimized
-                        className="rounded-lg w-full h-[30vh] object-cover"
+                        className="rounded-lg w-full h-[23vh] sm:h-[30vh] object-cover"
                         width={250}
                         height={250}
                         src={imageUrl}
@@ -30,10 +30,10 @@ export const BlogCard = ({
                     />
                 </div>
                 <div className="flex flex-col gap-3 justify-center items-center">
-                    <a href={`/blogs/${slug}`} className="block text-2xl font-medium text-gray-700 text-center">
+                    <a href={`/blogs/${slug}`} className="block text-lg sm:text-2xl font-medium text-gray-700 text-center">
                         {title}
                     </a>
-                    <p className="text-black text-center">
+                    <p className="text-black text-center text-sm sm:text-base">
                         {description}
                     </p>
                     <div className="flex items-center justify-center">
@@ -41,14 +41,14 @@ export const BlogCard = ({
                             unoptimized
                             width={5}
                             height={5}
-                            className="h-10 w-10 rounded-full object-cover border border-black"
+                            className="h-8 w-8 sm:h-10 sm:w-10 rounded-full object-cover border border-black"
                             src="/om-tekade.png" alt="Simon Lewis"
                         />
-                        <p className="ml-4 w-fit">
+                        <p className="ml-4 w-fit text-xs sm:text-base">
                             <strong className="block font-medium text-gray-800">
                                 Om Tekade
                             </strong>
-                            <span className="text-sm text-black/90">
+                            <span className="text-xs text-black/80">
                                 {format(new Date(publishedAt), 'MMMM dd, yyyy')}
                             </span>
                         </p>
