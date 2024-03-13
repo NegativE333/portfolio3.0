@@ -29,6 +29,12 @@ yarn-error.log*
 .env*.local
 .env
 
+/sanity
+sanity/
+/sanity/
+sanity.cli.ts
+sanity.config.ts
+
 # vercel
 .vercel
 

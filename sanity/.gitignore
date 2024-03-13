@@ -14,7 +14,7 @@ sanity/
 /sanity
 /sanity/
 sanity.cli.ts 
-sanity.confit.ts
+sanity.config.ts
 
 # Logs
 /logs
