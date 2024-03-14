@@ -1,7 +1,6 @@
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Contact } from "./_components/contact";
 import { Hero } from "./_components/hero";
-import { Instagram } from "lucide-react";
 
 export default function Home() {
   return (

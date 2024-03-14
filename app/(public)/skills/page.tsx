@@ -8,7 +8,7 @@ import { PageTitle } from "../_components/page-title";
 
 const Education = () => {
     return ( 
-        <div className="px:2 h-full w-full flex flex-col sm:flex-row gap-8 py-2 sm:py-4 justify-center items-center">
+        <div className="px:2 h-full w-full flex flex-col sm:flex-row gap-8 py-2 sm:py-4 justify-center items-center pt-16 sm:pt-8">
             
             <PageTitle title="skills"/>
 
@@ -31,6 +31,7 @@ const Education = () => {
                     </div>
                 </motion.div>
             </ScrollArea>
+
         </div>
     );
 }

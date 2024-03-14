@@ -9,12 +9,12 @@ import { PageTitle } from "../_components/page-title";
 const Projects = () => {
   return (
     <div
-      className="px:2 h-full w-full flex flex-col sm:flex-row gap-8 py-2 sm:py-4 justify-center"
+      className="px:2 h-full w-full flex flex-col sm:flex-row gap-8 py-2 sm:py-4 justify-center items-center pt-16 sm:pt-0"
     >
 
       <PageTitle title="projects"/>
       
-      <ScrollArea className="h-[590px] w-full px-2 sm:px-8">
+      <ScrollArea className="h-[79vh] w-full px-2 sm:px-8">
         <motion.div 
           initial={{opacity:0}}
           animate={{opacity:1}}
