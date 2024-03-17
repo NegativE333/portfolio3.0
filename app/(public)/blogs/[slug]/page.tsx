@@ -39,7 +39,7 @@ const BlogPage = async ({
   
     return (  
         <div
-          className="px:16 h-full w-full flex flex-col sm:flex-row gap-8 py-2 sm:py-4 justify-center items-center"
+          className="px:16 w-full flex flex-col sm:flex-row gap-8 py-2 sm:py-4 justify-center items-center h-fit mt-8"
         >
 
       <div className="sm:w-full bg-gray-500/40 shadow-lg p-4 rounded-lg sm:ml-4 gap-2 sm:gap-4 flex flex-col w-[95%]">
@@ -55,7 +55,7 @@ const BlogPage = async ({
             {data.title}
         </h1>
         <h2 className="text-center text-sm sm:text-base">
-            {data.smallDescription}
+            {data.smallDescription} 
         </h2>
         <div className="flex items-center justify-center">
           <Image

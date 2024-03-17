@@ -25,7 +25,7 @@ export const RichText = {
       </ul>
     ),
     number: ({ children }: any) => (
-      <ol className="mt-4 ml-4 list-decimal list-inside">
+      <ol className="ml-10 py-5 space-y-5 list-decimal list-inside">
         {children}
       </ol>
     ),
