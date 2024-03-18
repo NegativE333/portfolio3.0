@@ -12,7 +12,7 @@ export const RichText = {
             alt="Post image"
             width={700}
             height={700}
-            className="object-contain py-6"
+            className="object-contain rounded-xl opacity-90 w-[90%] my-4 shadow-xl"
           />
         </div>
       );
@@ -70,8 +70,8 @@ export const RichText = {
   marks: {
     link: ({ children, value }: any) => {
       return (
-        <Link 
-          href={value.href} 
+        <Link
+          href={value.href}
           className="cursor-pointer text-blue-700"
           target='_blank'
         >
