@@ -20,12 +20,12 @@ export const RichText = {
   },
   list: {
     bullet: ({ children }: any) => (
-      <ul className="ml-10 py-5 list-disc space-y-5">
+      <ul className="ml-5 sm:ml-10 py-5 space-y-5 list-disc list-inside text-justify">
         {children}
       </ul>
     ),
     number: ({ children }: any) => (
-      <ol className="ml-10 py-5 space-y-5 list-decimal list-inside">
+      <ol className="ml-5 sm:ml-10 py-5 space-y-5 list-decimal list-inside text-justify">
         {children}
       </ol>
     ),
@@ -62,7 +62,7 @@ export const RichText = {
       </h6>
     ),
     blockquote: ({ children }: any) => (
-      <blockquote className="border-l-orange-600/80 border-l-4 pl-3 sm:ml-1 mb-4">
+      <blockquote className="border-l-orange-600/80 border-l-4 pl-3 sm:ml-1 mb-4 text-justify">
         {children}
       </blockquote>
     ),

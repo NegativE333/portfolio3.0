@@ -26,7 +26,7 @@ const Blogs = async () => {
 
   return (
     <div
-      className="px:2 h-full w-full flex flex-col sm:flex-row gap-8 py-2 sm:py-4 justify-center items-center pt-16 sm:pt-0"
+      className="px:2 h-full w-full flex flex-col sm:flex-row gap-8 py-2 sm:py-4 justify-center items-center pt-8 sm:pt-0"
     >
 
       <PageTitle title="blogs" />
