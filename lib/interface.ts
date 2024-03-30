@@ -18,5 +18,7 @@ export interface projectData{
     smallDescription: string;
     content: any;
     titleImage: any;
+    audioLink?: any;
+    audioDur?: number;
     publishedAt: string;
   }
