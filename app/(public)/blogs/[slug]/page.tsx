@@ -62,7 +62,8 @@ const BlogPage = async ({
       <div className="sm:hidden h-full mt-44 flex flex-col gap-4 items-center">
         <BlogInfo 
           imageSrc={urlFor(data.titleImage).url()}
-          audioLink={data.audioLink}
+          audioLink={data?.audioLink?.asset}
+          audioDur={data.audioDur}
           title={data.title}
           desc={data.smallDescription}
           date={format(new Date(data.publishedAt), 'MMMM dd, yyyy')}
