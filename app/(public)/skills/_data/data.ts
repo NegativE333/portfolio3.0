@@ -70,6 +70,11 @@ export const data = [
         info: 'Framer Motion is a popular animation library for React applications. It simplifies the creation of smooth and interactive animations, allowing developers to enhance user interfaces with motion. With Framer Motion, you can easily animate React components, manage complex transitions, and add delightful effects to create engaging and visually appealing user experiences'
     },
     {
+        name: 'Stripe',
+        imageUrl: '/stripe.svg',
+        info: 'Stripe is a leading online payment processing platform that enables businesses to accept payments securely and seamlessly. With its robust APIs and developer-friendly tools, Stripe empowers merchants to manage transactions, handle subscriptions, and expand globally with ease.'
+    },
+    {
         name: 'Ethereum Blockchain',
         imageUrl: '/ethereum.svg',
         info: "Ethereum is a decentralized, open-source blockchain platform that enables the creation and execution of smart contracts and decentralized applications (DApps). It introduced the concept of a blockchain with a built-in programming language, allowing developers to build and deploy decentralized applications on its network."

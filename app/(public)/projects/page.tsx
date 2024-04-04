@@ -14,7 +14,7 @@ const Projects = () => {
 
       <PageTitle title="projects"/>
       
-      <ScrollArea className="h-[79vh] w-full px-2 sm:px-8">
+      <ScrollArea className="h-full w-full px-2 sm:px-8 sm:mt-24">
         <motion.div 
           initial={{opacity:0}}
           animate={{opacity:1}}
