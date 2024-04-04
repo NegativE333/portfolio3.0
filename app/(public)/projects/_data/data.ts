@@ -45,6 +45,15 @@ export const data = [
         ghref: "https://github.com/NegativE333/Otaku",
     },
     {
+        title: "Duolingo Clone",
+        imageUrl: "/duolingo.png",
+        desc: "The Duolingo clone is a web application built using Next.js and Tailwind CSS, offering a user experience similar to the popular language learning platform. Leveraging Drizzle for state management, PostgreSQL for database storage, and Stripe for payment processing, it provides an immersive language learning experience with interactive lessons, quizzes, and progress tracking.",
+        technologies: ["Next.js", "Tailwind CSS", "Drizzle", "PostgreSQL", "Stripe"],
+        createdAt : "Mar 2024",
+        href: "https://duolingo-clone-pi.vercel.app/",
+        ghref: "https://github.com/NegativE333/duolingo-clone",
+    },
+    {
         title: "Notion Clone",
         imageUrl: "/notion.png",
         desc: "Crafted a Notion clone with Next.js, Tailwind CSS, and Convex database. Replicating Notion's collaborative and flexible workspace, the project enables users to create, organize, and collaborate on documents seamlessly.",
