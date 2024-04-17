@@ -44,7 +44,7 @@ export const Hero = () => {
                     transition={{ duration: 0.7 }}
                     className="text-sm sm:text-lg text-justify"
                 >
-                    I am <span className="font-semibold">Om Tekade</span>, a dedicated computer engineer and tech enthusiast. With expertise in cutting-edge technologies like <span className="font-semibold">Next.js</span>, <span className="font-semibold">Node.js</span>, <span className="font-semibold">Prisma</span> and more, I fuse creativity with code. Outside the digital realm, you&apos;ll find me exploring nature through trekking and getting lost in the immersive realms of anime. Embracing the dynamic challenges of programming, I&apos;m on a perpetual quest for innovation and learning. Join me in traversing the ever-evolving landscape of technology.
+                    I&apos;m a computer engineering student deeply passionate about web development. Constantly exploring the latest technologies, I&apos;m driven by the challenge of crafting seamless user experiences and solving complex problems. From mastering frameworks to delving into backend systems, I thrive on pushing the boundaries of what&apos;s possible in the digital world.
                 </motion.div>
             </div>
             <motion.div 

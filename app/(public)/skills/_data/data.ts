@@ -65,14 +65,19 @@ export const data = [
         info: "MongoDB is a NoSQL database system that stores data in flexible, JSON-like documents. It provides a scalable, high-performance, and schema-free data storage solution. MongoDB is widely used in modern web development for its ability to handle large amounts of data, support for dynamic schemas, and ease of integration with various programming languages."
     },
     {
-        name: 'Framer Motion',
-        imageUrl: '/framer.svg',
-        info: 'Framer Motion is a popular animation library for React applications. It simplifies the creation of smooth and interactive animations, allowing developers to enhance user interfaces with motion. With Framer Motion, you can easily animate React components, manage complex transitions, and add delightful effects to create engaging and visually appealing user experiences'
+        name: 'Sanity',
+        imageUrl: '/sanity.svg',
+        info: 'Sanity.io is a headless CMS (Content Management System) that empowers developers and content creators to build structured, customizable content models and deliver content across various platforms. With its intuitive interface, real-time collaboration features, and robust APIs, Sanity.io streamlines content management for modern web and mobile applications.'
     },
     {
         name: 'Stripe',
         imageUrl: '/stripe.svg',
         info: 'Stripe is a leading online payment processing platform that enables businesses to accept payments securely and seamlessly. With its robust APIs and developer-friendly tools, Stripe empowers merchants to manage transactions, handle subscriptions, and expand globally with ease.'
+    },
+    {
+        name: 'Framer Motion',
+        imageUrl: '/framer.svg',
+        info: 'Framer Motion is a popular animation library for React applications. It simplifies the creation of smooth and interactive animations, allowing developers to enhance user interfaces with motion. With Framer Motion, you can easily animate React components, manage complex transitions, and add delightful effects to create engaging and visually appealing user experiences'
     },
     {
         name: 'Ethereum Blockchain',

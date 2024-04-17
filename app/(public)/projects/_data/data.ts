@@ -1,9 +1,18 @@
 export const data = [
     {
+        title: "Crisis Connect",
+        imageUrl: "/crisis-connect.png",
+        desc: "A platform for crowdsourced disaster reporting, real-time alerts, and personalized email notifications based on user location. Also provides disaster information and preparedness tips.",
+        technologies: ["Next.js", "Tailwind CSS", "PostgreSQL", "Prisma", "Clerk", "AWS SES", "Sanity"],
+        createdAt : "Apr 2024",
+        href: "https://crisis-connect-web.vercel.app/",
+        ghref: "https://crisis-connect-web.vercel.app/",
+    },
+    {
         title: "Money Matters 3.0",
         imageUrl: "/mm.png",
         desc: "Money Matters is a platform that facilitates the easy splitting of expenses among groups. Users can utilize this platform to keep track of their expenses efficiently.",
-        technologies: ["Next.js", "Tailwind CSS", "MySQL", "Prisma"],
+        technologies: ["Next.js", "Tailwind CSS", "MySQL", "Prisma", "Clerk"],
         createdAt : "Dec 2023",
         href: "https://money-matters3.vercel.app/",
         ghref: "https://github.com/NegativE333/moneyMatters3.0",
@@ -30,7 +39,7 @@ export const data = [
         title: "loud",
         imageUrl: "/loud.png",
         desc: "A music streaming website using Next.js, complemented by the enhanced user interface crafted with Tailwind CSS.",
-        technologies: ["Next.js", "Tailwind CSS"],
+        technologies: ["Next.js", "Tailwind CSS", "Mongo DB"],
         createdAt : "Mar 2023",
         href: "https://loud2-0.vercel.app/auth",
         ghref: "https://github.com/NegativE333/loud2.0",
