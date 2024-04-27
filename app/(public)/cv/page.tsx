@@ -22,8 +22,7 @@ const CV = () => {
             <PageTitle title="cv"/>
 
             <div className="sm:w-[70%] h-[500px] sm:h-[600px] flex items-center justify-center sm:px-16 px-2 relative">
-                <iframe className="w-[100%] h-[100%] z-10" src="https://drive.google.com/file/d/1x2wc2hdRm0jyTqRFdtSzjdPVAk92mvoq/preview"></iframe>
-                
+                <iframe className="w-[100%] h-[100%] z-10" src="https://drive.google.com/file/d/165lifofAd1PdiEn97lXjti2kITJ3iHCk/preview"></iframe>
                 <p className="absolute">
                     <Loader2 className="h-56 w-6 animate-spin"/>
                 </p>
