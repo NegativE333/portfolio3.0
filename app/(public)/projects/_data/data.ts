@@ -6,7 +6,7 @@ export const data = [
         technologies: ["Next.js", "Tailwind CSS", "PostgreSQL", "Prisma", "Clerk", "AWS SES", "Sanity"],
         createdAt : "Apr 2024",
         href: "https://crisis-connect-web.vercel.app/",
-        ghref: "https://crisis-connect-web.vercel.app/",
+        ghref: "https://github.com/NegativE333/crisis-connect",
     },
     {
         title: "Money Matters 3.0",
@@ -23,8 +23,17 @@ export const data = [
         desc: "The Crypto Domains Marketplace is a decentralized application (DApp) built on the Ethereum blockchain. It allows users to buy, sell, and manage crypto domains using smart contracts.",
         technologies: ["Next.js", "Tailwind CSS", "Ethereum", "Solidity", "Hardhat"],
         createdAt : "Sep 2023",
-        href: "",
+        href: "https://github.com/NegativE333/cryptoDomains2.0",
         ghref: "https://github.com/NegativE333/cryptoDomains2.0",
+    },
+    {
+        title: "SES QuickMailer",
+        imageUrl: "/ses-quickmailer.png",
+        desc: "SES Quick Mailer is a web application that leverages AWS SES to send transactional and marketing emails to users. It provides a user-friendly interface for composing emails, managing recipient lists, and tracking email delivery.",
+        technologies: ["Next.js", "Tailwind CSS", "AWS SES", "Prisma"],
+        createdAt : "Apr 2024",
+        href: "https://github.com/NegativE333/ses-quick-mailer-next-js",
+        ghref: "https://github.com/NegativE333/ses-quick-mailer-next-js",
     },
     {
         title: "Money Matters 2.0",
